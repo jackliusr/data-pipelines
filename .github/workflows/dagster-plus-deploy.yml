@@ -19,7 +19,7 @@ env:
   # The API token from https://dagster.cloud/ should be stored in Secrets
   DAGSTER_CLOUD_API_TOKEN: ${{ secrets.DAGSTER_CLOUD_API_TOKEN }}
   # Path to the root folder containing the dagster project
-  DAGSTER_PROJECT_DIR: "dagster-quickstart"
+  DAGSTER_PROJECT_DIR: "dagster/dagster-quickstart"
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   dagster-cloud-deploy:
