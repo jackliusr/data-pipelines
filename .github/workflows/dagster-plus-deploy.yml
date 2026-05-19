@@ -1,6 +1,8 @@
 name: Dagster Cloud Hybrid Deployment
 on:
   push: # For full deployments
+    paths:
+      - 'dagster/**'
     branches:
       - "main"
       - "master"
